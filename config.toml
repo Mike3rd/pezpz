@@ -101,5 +101,7 @@ previewCardImagePlacement = "bottom"
     url = "/about/"
     weight = 5
 
-
+[build.environment]
+HUGO_VERSION = "0.125.5"
+DART_SASS_VERSION = "1.77.1"
 
