@@ -1,5 +1,6 @@
 baseURL = "/"
 relativeUrls = true
+canonifyURLs = true
 DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Lightbi"
