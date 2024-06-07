@@ -2,8 +2,8 @@
 title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description : "Description goes here..."
-tags: [""]
-image : "/img/posts/2024/may/warhol.png"
+tags: ["test"]
+image : "/img/posts/2024/may/test3.png"
 draft: false
 ---
-
+image : "/img/posts/2024/may/test3.png"
