@@ -21,7 +21,7 @@ selfHosted = true
 mainSections = ["post","posts"]
 dateFormat = "02 January 2006"
 comments = false
-readingTime = false
+readingTime = true
 wordCount = false
 useHLJS = true
 socialShare = true
@@ -35,7 +35,7 @@ rss = false
 pagination = "10"
 hideAuthor = false
 description="Your can add your website description here."
-previewCardImagePlacement = "bottom"
+previewCardImagePlacement = "top"
 
 [Params.Author]
   name = "Bino Kochumol Varghese"
