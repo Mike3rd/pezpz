@@ -4,6 +4,6 @@ date: {{ .Date }}
 description : "Description goes here..."
 tags: [""]
 image : "/img/posts/2024/may/warhol.png"
-draft: true
+draft: false
 ---
 
