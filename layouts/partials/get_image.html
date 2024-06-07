@@ -1,9 +1,9 @@
 {{ $img := false }}
 {{ if .Params.image }}
-  {{ with .Resources.Get .Params.image }}
+  {{ with .Resources.GetMatch .Params.image }}
     {{ $img = . }}
   {{ else }}
-    {{ with resources.Get .Params.image }}
+    {{ with resources.GetMatch .Params.image }}
       {{ $img = . }}
     {{ end }}
   {{ end }}
