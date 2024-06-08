@@ -1,6 +1,5 @@
 baseURL = "https://pezpz.vercel.app/"
-relativeUrls = true
-canonifyURLs = true
+
 DefaultContentLanguage = "en"
 languageCode = "en-us"
 title = "Planet EasyPeasy"
