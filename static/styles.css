@@ -77,3 +77,11 @@ blockquote {
 
 .navbar-brand{color:var(--bs-heading-color)}
 
+
+
+@media only screen and (max-width: 766px) {
+/*author card bottom of post*/
+.img-50 {max-width:125px}
+
+
+}
