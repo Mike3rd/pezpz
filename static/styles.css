@@ -62,8 +62,20 @@ blockquote {
 
 .star{color: red; font-size:15px;}
 
-.navbar-brand{color:var(--bs-heading-color)}
+.navbar-brand{color:var(--bs-heading-color);
 
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-nav li{
+    font-weight: 600;
+
+	text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
 
 
 @media only screen and (max-width: 767px) {
