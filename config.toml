@@ -41,11 +41,6 @@ hideAuthor = false
 description="Your can add your website description here."
 previewCardImagePlacement = "top"
 
-
-[sitemap]
-  changefreq = "monthly"
-  priority = 0.5
-  filename = "sitemap.xml"
   
  [Params.Author]
   name = "Bino Kochumol Varghese"
