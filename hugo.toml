@@ -17,6 +17,7 @@ Paginate = 6
 summaryLength  = "30"
 
 [Params]
+logo = "img/avatar-icon.png" # Expecting square dimensions
 selfHosted = true
 mainSections = ["post","posts"]
 dateFormat = "02 January 2006"

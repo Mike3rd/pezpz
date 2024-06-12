@@ -5,7 +5,15 @@
 
       <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
         <div class="container">
-
+		    {{ if isset .Site.Params "logo" }}
+      <div class="avatar-container" id="header-icon">
+        <div class="avatar-img-border">
+          <a title="{{ .Site.Title }}" href="{{ "" | absLangURL }}">
+            <img class="avatar-img" src="{{ .Site.Params.logo | absURL }}" alt="{{ .Site.Title }}" />
+          </a>
+        </div>
+      </div>
+    {{ end }}
            <a class="navbar-brand fw-bold" href="{{ "" | absLangURL }}"><!--<span class="dot star"></span>-->{{ .Site.Title }}</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
             aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -94,3 +102,26 @@
     </div>
   </div>
 </div>
+
+
+
+<!-- When the user scrolls down 50px from the top of the document, resize the header's font size-->
+<script>
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+    document.getElementById("header-icon").style.opacity = "0";
+  } else {
+    document.getElementById("header-icon").style.opacity = "1";
+  }
+}
+</script>
+
+
+<!-- toggle avatar on off on mobile menu click-->
+<script>	
+function toggleImage() {
+    document.getElementById("header-icon").classList.toggle("top-nav-expanded");
+}
+</script>
