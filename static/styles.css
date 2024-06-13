@@ -15,6 +15,12 @@ margin-top:-20px;
 }
 
 
+.home-title-text{
+	font-weight: 600!important;
+	margin-bottom: 1rem !important;
+	font-size: calc(1.425rem + 2.1vw);
+	line-height: 1 !important;
+}
 
 blockquote {
     background: #f9f9f9;
