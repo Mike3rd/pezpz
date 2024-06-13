@@ -4,6 +4,7 @@
  * 01-15-2024
  * ------------------------------------------------------------------*/
 
+/*well is title on home page*/
 .well{
     min-height: 20px;
     padding-top:0px;
@@ -12,8 +13,16 @@
 margin-top:-30px;
 	text-align:center;
 	font-weight: 600!important;
+	line-height: 1 !important;
 		font-size: calc(1.425rem + 2.1vw);
+}
 
+@media only screen and (max-width: 767px) {
+
+.well{
+margin-top:-70px;
+
+}
 }
 
 
