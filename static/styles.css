@@ -7,10 +7,12 @@
 .well{
     min-height: 20px;
     padding-top:0px;
-    margin-bottom: 20px;
+    margin-bottom: 1rem !important;
     background-color:white;
-margin-top:-20px;
+margin-top:-30px;
 	text-align:center;
+	font-weight: 600!important;
+		font-size: calc(1.425rem + 2.1vw);
 
 }
 
