@@ -22,7 +22,14 @@
         margin-top: -40px;
         line-height: 100% !important;
     }
+	.search .search-icon{
+	padding:5px 0px 5px 0px;
+	font-size:25px
 }
+	
+
+}
+/*end media scree max 767px*/
 
 .home-title-text {
     font-weight: 600 !important;
@@ -30,6 +37,9 @@
     font-size: calc(1.425rem + 2.1vw);
     line-height: 1 !important;
 }
+
+
+
 
 blockquote {
     background: #f9f9f9;
