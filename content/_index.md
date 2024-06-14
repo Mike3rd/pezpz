@@ -1,10 +1,10 @@
 ---
 type : "tags"
 layout : "about"
-title: "Planet EasyBreasy"
+title: "Planet EasyBreezy"
 ---
 
-Planet EasyBreasy
+Planet EasyBreezyy
 
 
 
