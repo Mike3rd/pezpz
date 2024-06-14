@@ -24,12 +24,13 @@
     }
 	.search .search-icon{
 	padding:0px 0px 15px 0px!important;
-
-}
+	}
 	
-
+.search-item, .search, .search-input{
+	width:80%!important
 }
-/*end media scree max 767px*/
+
+}/*end media scree max 767px*/
 
 .home-title-text {
     font-weight: 600 !important;
