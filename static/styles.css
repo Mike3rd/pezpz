@@ -105,7 +105,7 @@ blockquote {
     .fixed-top {
         position: fixed;
     }
-}
+}/*end media querry*/
 
 /*avatar center of header*/
 .navbar .avatar-container {
@@ -147,8 +147,8 @@ blockquote {
 }
 
 
-/*navbar mobile*/
-@media only screen and (min-width: 767px) {
+/* avatar on desktop size */
+@media only screen and (min-width: 768px) {
     .navbar .avatar-container {
         width: 100px;
         margin-top: 70px;
@@ -164,11 +164,19 @@ blockquote {
     .navbar .avatar-container .avatar-img {
         width: 100%;
     }
-	
 		
+}/* end media querry */
+
+/* delete searchbar on mobile */
+@media only screen and (max-width: 767px) {
+
 .search-item, .search, .search-input{
 	display:none
 }
+}/*end media querry*/
+
+
+
+
+
 	
-	
-}/*end navbar mobile*/
