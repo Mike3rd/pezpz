@@ -23,10 +23,7 @@
         line-height: 100% !important;
     }
 
-	
-.search-item, .search, .search-input{
-	width:80%!important
-}
+
 
 }/*end media scree max 767px*/
 
@@ -149,7 +146,9 @@ blockquote {
     display: none;
 }
 
-@media only screen and (min-width: 768px) {
+
+/*navbar mobile*/
+@media only screen and (min-width: 767px) {
     .navbar .avatar-container {
         width: 100px;
         margin-top: 70px;
@@ -165,4 +164,11 @@ blockquote {
     .navbar .avatar-container .avatar-img {
         width: 100%;
     }
+	
+		
+.search-item, .search, .search-input{
+	display:none
 }
+	
+	
+}/*end navbar mobile*/
