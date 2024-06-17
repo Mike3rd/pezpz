@@ -3,6 +3,20 @@
  * Template Ver. 1.0.0
  * 01-15-2024
  * ------------------------------------------------------------------*/
+ 
+ 
+ /* a. Webfonts
+/* =================================================================== */
+ @import url("fonts.css");
+ 
+ :root {
+  --font-1: "lapsus_probold", sans seriff; /*title*/
+  --regular: normal;
+
+}
+ 
+ 
+ 
 
 /*well is title on home page*/
 .well {
@@ -14,6 +28,7 @@
     text-align: center;
     font-weight: 800 !important;
     font-size: calc(3rem + 2.1vw);
+	font-family:lapsus_probold;
     /*font-size: 80px;*/
 }
 
