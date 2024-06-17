@@ -10,7 +10,7 @@
  @import url("fonts.css");
  
  :root {
-  --font-1: "lapsus_probold", sans seriff; /*title*/
+  --font-1: "exoregular", sans seriff; /*title*/
   --regular: normal;
 
 }
