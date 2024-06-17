@@ -4,7 +4,7 @@ layout : "about"
 title: "Planet EasyBreezy"
 ---
 
-Planet EasyBreezy
+Planet Easy-Breezy
 
 
 

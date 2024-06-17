@@ -28,7 +28,7 @@
     text-align: center;
     font-weight: 800 !important;
     font-size: calc(3rem + 2.1vw);
-	font-family:lapsus_probold;
+	font-family:var(--font-1);
     /*font-size: 80px;*/
 }
 
