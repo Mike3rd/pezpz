@@ -2,15 +2,6 @@
 /*
 ================================================================================ */
 
-/*title font*/
-@font-face {
-    font-family: 'lapsus_probold';
-    src: url('/fonts/lapsus/lapsuspro-bold-webfont.woff2') format('woff2'),
-         url('/fonts/lapsus/lapsuspro-bold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 
 
 /*exo*/
