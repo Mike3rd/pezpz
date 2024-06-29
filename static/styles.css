@@ -30,6 +30,7 @@
     font-weight: 800 !important;
     font-size: calc(3rem + 2.1vw);
 	font-family:var(--font-1);
+	line-height: 100% !important;
     /*font-size: 80px;*/
 }
 
