@@ -4,7 +4,7 @@ canonifyURLs = true
 
 DefaultContentLanguage = "en"
 languageCode = "en-us"
-title = "PlanetEasyBreezy"
+title = "Planet EasyBreezy"
 metaDataFormat = "yaml"
 pygmentsStyle = "trac"
 #pygmentsUseClasses = true
