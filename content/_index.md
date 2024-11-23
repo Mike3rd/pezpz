@@ -1,9 +1,9 @@
 ---
 type : "tags"
 layout : "about"
-title: "Planet EasyBreezy"
+title: "Planet Easy Peasy"
 ---
-Planet EasyBreezy
+Planet Easy Peasy
 # `Mkeoiid cod wiapc dlpiem clde.`
 
 
